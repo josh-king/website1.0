@@ -19,7 +19,7 @@
     	<link href="assets/dist/css/flat-ui.css" rel="stylesheet">
     	<link href="assets/docs/assets/css/docs.css" rel="stylesheet">
 	</head>
-	<body>
+	<body data-spy="scroll" data-target="#myScrollspy">
 
 		<section id="nav" role="navigation">
 			<header id="nav-header" class="navbar navbar-default">
@@ -27,28 +27,84 @@
 					<div class="navbar-left">
 						<a class="navbar-brand" href="index.html">Welcome</a> 
 					</div>
-					<div class="navbar-right">
-						<ul class="nav navbar-nav">
-        					<li class="active"><a href="#">Home</a></li>
-        					<li><a href="#">About</a></li>
-        					<li><a href="#">Hire</a></li>
+					<div class="navbar-right" id="myScrollspy">
+						<ul class="nav navbar-nav affix-top" data-spy="affix">
+        					<li class="active"><a href="#intro">Home</a></li>
+        					<li><a href="#about">About</a></li>
+        					<li><a href="#hire">Hire</a></li>
+        					<li><a href="#contact">Contact</a></li>
         				</ul>
 					</div>
 				</div>
 			</header>
 		</section> <!-- /section-nav -->
 
-		<section id="intro" class="container" >
-      		<div class="demo-headline">
-        		<h1 class="demo-logo">
+		<!--============= // INTRO // ===========-->
+		<!--=====================================-->
+		<section id="intro">
+      		<div class="demo-headline container">
+        		<h1>
           			I'm Josh,<br>
-          			<small>a freelance web developer.</small>
+          			a freelance web developer.
         		</h1>
       		</div> <!-- /demo-headline -->
 		</section> <!-- /section-intro -->
 
+		<!--============= // ABOUT // ===========-->
+		<!--=====================================-->
+		<section id="about">
+      		<div class="container" align="center">
+      			<br> <br> 
+      			<img src="assets/img/base.png" />
+        		<h2>Who am I?</h2>
+        		<p> I'm a <a data-toggle="tooltip" title="pr0nst4r">web designer/developer</a> that lives in the UK.<br>
+        			I'll be moving the Japan August 2015, from there I will be blogging every day.<br>
+        			I have made a number of websites, check out my <a href="#">portfolio</a>.
+        		<p> <br> <br>
+			</div> <!-- /demo-headline -->
+		</section> <!-- /section-about -->
+
+		<!--============= // HIRE // ============-->
+		<!--=====================================-->		
+		<section id="hire">
+      		<div class="demo-headline container">
+      			<br>
+        		<h1>I can help</h1>
+        		<p>
+        			I am available for hire for a large amount of technology related jobs.<br>
+        			The languages I am more fluent in are PHP, Java and Python.
+        		</p>
+        		<br>
+      		</div> <!-- /demo-headline -->
+		</section> <!-- /section-hire -->
+
+		<!--========== // CONTACT // ============-->
+		<!--=====================================-->		
+		<section id="contact">
+      		<div class="container" align="center">
+      			<br>
+        		<h1>Contact</h1>
+        		<p>
+        			Want my help with making something? Contact me.<br>
+        			<a type="button" class="btn btn-default" href="mailto:joshhKing97@gmail.com">Email</a>
+        		</p>
+        		<br>
+      		</div> <!-- /demo-headline -->
+		</section> <!-- /section-contact -->
+
+		<footer>
+			<div class="container" align="center">
+				<br>
+				<a type="button" class="btn btn-primary" href="http://instagram.com/joshh_king">instagram</a>
+				<a type="button" class="btn btn-primary" href="https://twitter.com/joshhking">twitter</a>
+				<p><br>© 2014 <a href="http://josh-king.github.io/me/">Josh King</a>. All rights reserved.</p>
+				<p>Ross is a fag,</p>
+			</div>
+		</footer> <!-- /footer -->
+
 		<script src="assets/dist/js/vendor/jquery.min.js"></script>
     	<script src="assets/dist/js/flat-ui.min.js"></script>
     	<script src="assets/docs/assets/js/application.js"></script>
+
 	</body>
 </html>
