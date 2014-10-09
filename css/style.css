@@ -53,6 +53,14 @@ footer p {
     margin-bottom: 5px;
 }
 
+.img-default {
+    background:url('uploads/assets/anu1.jpeg');
+}
+
+.img-main {
+    
+}
+
 .half-width {
     float: left;
     width: 200px;
