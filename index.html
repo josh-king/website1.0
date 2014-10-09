@@ -56,4 +56,23 @@
 
 	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	</body>
+	
+	<!-- Preloader -->
+	<div class="hidden">
+	    <script type="text/javascript">
+	        <!--//--><![CDATA[//><!--
+		    var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"uploads/assets/img1.jpg", 
+				"uploads/assets/anu1.jpeg"
+			)
+		//--><!]]>
+	    </script>
+        </div>
 </html>
