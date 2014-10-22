@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- //TODO// -->
+		<!-- Make mobile verison -->
+		<title>Josh King - web developer - Revision</title>
+
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<link rel="shortcut icon" type="image/icon" href="assets/img/favicon.ico">
+		
+		<meta name="description" content="The portfolio of Josh King, an Web developer from the UK." />
+		<meta name="keywords" content="josh, king, josh king, web design, websites, developer, freelance" />
+
+		<!-- /Loading Bootstrap -->
+    	<link href="assets/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    	<!-- /Loading Blueify (Still needs implementing) -->
+		<!--link href="assets/dist/css/blueify.css" rel="stylesheet"-->
+
+    	<!-- /Loading Flat UI -->
+    	<link href="assets/dist/css/flat-ui.css" rel="stylesheet">
+    	<link href="assets/docs/assets/css/docs.css" rel="stylesheet">
+	</head>
+	<body data-spy="scroll" data-target="#nsa-spy">
+
+		<section id="nav" role="navigation">
+			<header id="nav-header" class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-left">
+						<a class="navbar-brand" href="index.html">Welcome</a> 
+					</div>
+					<div class="navbar-right" id="nsa-spy">
+						<ul class="nav navbar-nav affix-top" data-spy="affix">
+        					<li><a href="index.html#intro">Home</a></li>
+        					<li><a href="index.html#about">About</a></li>
+        					<li><a href="index.html#hire">Hire</a></li>
+        					<li><a href="index.html#contact">Contact</a></li>
+        					<li class="dropdown; active">
+          						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Work <span class="caret"></span></a>
+          						<ul class="dropdown-menu" role="menu">
+            						<li><a href="revision.html">Revision</a></li>
+          						</ul>
+        					</li>
+        				</ul>
+					</div>
+				</div>
+			</header>
+		</section> <!-- /section-nav -->
+
+		<!--========== // CAROUSEL // ===========-->
+		<!--=====================================-->
+		<section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  			<!-- Indicators -->
+  			<ol class="carousel-indicators">
+    			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  			</ol>
+
+ 			<!-- Wrapper for slides -->
+  			<div class="carousel-inner">
+    			<div class="item active">
+      				<img src="uploads/revision/img1.png">
+      					<div class="carousel-caption">
+        					REVISION: The in-game view of revision.
+      					</div>
+    			</div>
+    			<div class="item">
+      				<img src="uploads/revision/img2.png">
+      					<div class="carousel-caption">
+        					REVISION: Tracers in action.
+      					</div>
+    			</div>
+  			</div>
+
+  			<!-- Controls -->
+  			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  			</a>
+  			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  			</a>
+		</section>
+
+		<!--============= // INTRO // ===========-->
+		<!--=====================================-->
+		<section id="intro">
+      		<div class="container" align="center">
+        		<h1>Revision</h1>
+          			<p>Revision is a hacked <a href="minecraft.net">Minecraft</a> client that<br>
+					I've been working on recently; it has a lot<br>
+					of nice features and has many frequent updates.<br>
+					<small>Current Version: <a data-toggle="modal" data-target="#revisionModal">0.6</a></small></p>
+					<a type="button" class="btn btn-default" href="#">Download</a>
+      		</div> <!-- /demo-headline -->
+      		<br>
+		</section> <!-- /section-intro -->
+
+		<!-- Modal -->
+		<div class="modal fade" id="revisionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  			<div class="modal-dialog">
+   				<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        				<h4 class="modal-title" id="myModalLabel">0.6 Changes</h4>
+      				</div>
+      				<div class="modal-body">
+      					= 0.6<br>
+      						+ Huge update<br>
+        			    - 0.5.1<br>
+							* Quick protocol update to 78.<br>
+						- 0.5<br>
+							+ Added Velocity.<br>
+							* Synchronized Modules.<br>
+							* Tweaked Sprint.<br>
+							* Tweaked Aura slightly.<br>
+							* Attempt at fixing crash when storing in a chest with nothing in your inv.<br>
+						    	* Made it so that invisible people on tracers are orange.<br>
+						- 0.4.2b<br>
+							* Fixed nametag method.<br>
+						- 0.4.2a<br>
+							* PlayerList view now has friend name correction.<br>
+							+ Added a new Command (CommandAll). Used for multiple commands.<br>
+							* Trimmed Friend.list (".").<br>
+							* Fixed LockView on killaura.<br>
+							+ Added silent aimbot to killaura.<br>
+							* Created a faster method for re-rendering the world.<br>
+							+ Added keybind to button hover.<br>
+							+ Added Forcefield h4x<br>
+      				</div>
+      				<div class="modal-footer">
+        				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+
+		<footer>
+			<div class="container" align="center">
+				<br>
+				<a type="button" class="btn btn-primary" href="http://instagram.com/joshh_king">instagram</a>
+				<a type="button" class="btn btn-primary" href="https://twitter.com/joshhking">twitter</a>
+				<p><br>© 2014 <a href="http://josh-king.github.io/me/">Josh King</a>. All rights reserved.</p>
+				<p><a href="nihongo.html">日本語</a></p>
+			</div>
+			<a href="swf.html"><small>secret</small></a>
+		</footer> <!-- /footer -->
+
+		<script src="assets/dist/js/vendor/jquery.min.js"></script>
+    	<script src="assets/dist/js/flat-ui.min.js"></script>
+    	<script src="assets/docs/assets/js/application.js"></script>
+
+	</body>
+</html>

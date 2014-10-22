@@ -1,0 +1,35 @@
+#about, #contact {
+  background-color: #ecf0f1;
+}
+.blueify-headline {
+  padding: 40px 0;
+  margin-top: 2px;
+  margin-bottom: 50px;
+  font: 700 118px/1.1 "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #1772c2;
+  text-align: center;
+  word-wrap: break-word;
+}
+.blueify-navbar {
+  min-height: 53px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+}
+.blueify-navbar-default {
+  background-color: #ecf0f1;
+}
+.blueify-navbar-default .blueify-navbar-brand {
+  color: #1772c2;
+  height: 76px;
+  padding: 14px 21px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.042;
+}
+.blueify-navbar-default .blueify-navbar-brand:hover,
+.blueify-navbar-default .blueify-navbar-brand:focus {
+  color: #1551c1;
+  background-color: transparent;
+  }
